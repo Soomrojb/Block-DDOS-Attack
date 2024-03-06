@@ -4,7 +4,7 @@
 accesslogs=("/var/log/apache2/websites/website1.com/access.log" "/var/log/apache2/websites/website1.com/access.log")
 
 # add ther terms for searching
-srchterms=("/xmlrpc.php" "/cjfuns.php" "/woh.php" "/xxl.php" "/wp-admin/wplogin.php" "/themes/wplogin.php")
+srchterms=("/xmlrpc.php" "/cjfuns.php" "/woh.php" "/xxl.php" "/wp-admin/wplogin.php" "/themes/wplogin.php" "BLEXBot/" "/weddingtips.ph" "Bytespider;" "PetalBot;" "/system_log.ph" "wlwmanifest.xml" "login_sid.lua" "Go-http-client" ".env.old" ".env.production" ".env%20" "cp/.env" "cp/.env" "?phpinfo=-1")
 
 for log in ${accesslogs[@]}; do
     for trm in ${srchterms[@]}; do
